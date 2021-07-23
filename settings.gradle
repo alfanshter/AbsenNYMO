@@ -1,0 +1,2 @@
+rootProject.name = "NYMO"
+include ':app'

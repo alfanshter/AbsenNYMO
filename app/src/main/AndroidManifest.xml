@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skripsi.absen">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NYMO">
+        <activity android:name=".admin.DetailRegisterActivity"></activity>
+        <activity android:name=".admin.GajiAdminActivity" />
+        <activity android:name=".pimpinan.ui.TambahGajiLemburActivity" />
+        <activity android:name=".pimpinan.DataKaryawabActivity" />
+        <activity android:name=".pimpinan.IzinKaryawanPimpinanActivity" />
+        <activity android:name=".pimpinan.LembuarKaryawanPimpinanActivity" />
+        <activity android:name=".pimpinan.LiburKaryawanPimpinanActivity" />
+        <activity android:name=".pimpinan.AbsensiKaryawanActivity" />
+        <activity android:name=".pimpinan.GajiKaryawanActivity" />
+        <activity android:name=".pimpinan.PimpinanActivity" />
+        <activity android:name=".admin.IzinActivity" />
+        <activity android:name=".admin.TambahLemburActivity" />
+        <activity android:name=".admin.LemburActivity" />
+        <activity android:name=".admin.LiburKaryawanActivity" />
+        <activity android:name=".karyawan.LiburActivity" />
+        <activity android:name=".karyawan.IzinAddActivity" />
+        <activity android:name=".admin.AdminActivity" />
+        <activity android:name=".admin.RegisterActivity" />
+        <activity android:name=".karyawan.KaryawanActivity" />
+        <activity
+            android:name=".karyawan.KaryawanHomeActivity"
+            android:label="@string/title_activity_karyawan_home"
+            android:theme="@style/Theme.NYMO.NoActionBar" />
+        <activity android:name=".auth.LoginPimpinanActivity" />
+        <activity android:name=".auth.LoginAdminActivity" />
+        <activity android:name=".auth.LoginPegawaiActivity" />
+        <activity android:name=".auth.LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <import type="android.view.View"/>
+        <variable
+            name="gaji"
+            type="com.skripsi.absen.pimpinan.ui.GajiAdminFragment" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/kotakgaji"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".pimpinan.ui.GajiAdminFragment">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gaji Admin"
+            android:textSize="26dp"
+            android:fontFamily="@font/oswald_light"
+            android:textColor="@color/black"
+            android:layout_margin="20dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="20dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tanggal"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/oswald_light"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/gaji"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/oswald_light"
+                    android:textColor="@color/black"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="20dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/kotakinputgaji"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:id="@+id/edt_bulan"
+                    android:fontFamily="@font/oswald_light"
+                    android:textColor="@color/black"
+                    />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/kotakinputgaji"
+                    android:textSize="20dp"
+                    android:id="@+id/edt_gaji"
+                    android:inputType="number"
+                    android:fontFamily="@font/oswald_light"
+                    android:textColor="@color/black"
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            app:backgroundTint="@color/hitampuyeh"
+            android:text="@string/simpan"
+            android:textAllCaps="false"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_simpan"
+
+            />
+
+
+    </LinearLayout>
+</layout>

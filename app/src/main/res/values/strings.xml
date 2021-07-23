@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">NYMO</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="title_activity_karyawan_home">KaryawanHomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="editprofil">Edit Profil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loading">Loading ....</string>
+    <string name="simpan">Simpan</string>
+    <string name="field">Masukkan semua kolom</string>
+    <string name="logout">Logout</string>
+    <string name="nama">Nama</string>
+    <string name="lembur">Lembur</string>
+    <string name="ijin">Ijin Karyawan</string>
+    <string name="belumverif">Belum verifikasi</string>
+    <string name="bulan">Bulan</string>
+    <string name="gaji">Gaji</string>
+    <string name="tahun">Tahun</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="tambah">Tambah</string>
+    <string name="waktu">Waktu</string>
+    <string name="absen">Absensi</string>
+    <string name="libur">Libur</string>
+    <string name="ijingaji">ijin</string>
+    <string name="datakaryawan">Data Karyawan</string>
+    <string name="jamlembur">Jam lembur</string>
+    <string name="status">Status</string>
+    <string name="alasan">Alasan</string>
+    <string name="selesailibur">Selesai libur</string>
+    <string name="jumlahlibur">Jumlah libur</string>
+    <string name="hapus">Hapus</string>
+    <string name="batal">Batal</string>
+    <string name="update">Update</string>
+    <string name="lokasi">Sedang mencari lokasi</string>
+
+    <string-array name="hari">
+        <item>Januari</item>
+        <item>Febuary</item>
+        <item>Maret</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>July</item>
+        <item>Agustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Desember</item>
+    </string-array>
+</resources>
